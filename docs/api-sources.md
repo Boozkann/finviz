@@ -13,7 +13,6 @@
 - **Usage:** Daily close, volume, open/high/low values.  
 - **Rate Limit Strategy:** Combine multiple symbols per request; handle 429 errors with exponential backoff (200ms → 400ms → 800ms).  
 
----
 
 ## 🧾 Fundamental Data
 **Provider:** [Financial Modeling Prep (FMP)](https://financialmodelingprep.com/developer/docs/)  
@@ -37,7 +36,6 @@
 ```
 - **Usage:** Daily retrieval of core fundamentals and ratios.
 
----
 
 ## 🔄 Backup Provider
 **Provider:** [AlphaVantage](https://www.alphavantage.co/)  
@@ -50,7 +48,6 @@
 
 ````
 
----
 
 ## 🔐 API Key Storage
 API keys are stored in **AWS Secrets Manager** under secret name `finviz/api_keys`.
