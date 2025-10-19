@@ -1,5 +1,3 @@
----
-
 # API Sources (FinViz Project)
 
 ## 📈 Price & Volume Data
@@ -76,8 +74,4 @@ keys = json.loads(raw)
 TD_KEY  = keys['twelvedata_key']
 FMP_KEY = keys['fmp_key']
 AV_KEY  = keys['alphavantage_key']
-```
-
----
-
 ```
